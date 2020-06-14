@@ -1,0 +1,103 @@
+{
+  "jcr:primaryType": "nt:folder",
+  "jcr:createdBy": "admin",
+  "jcr:created": "Sun Jun 14 2020 12:12:03 GMT+0200",
+  "us": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "countryName": "United States",
+      "countrySite": true,
+      "cq:template": "/conf/wknd/settings/wcm/templates/landing-page-template",
+      "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+      "pageTitle": "somepage",
+      "sling:resourceType": "components/page",
+      "cq:lastModifiedBy": "admin"
+      },
+    "en": {
+      "jcr:primaryType": "nt:unstructured",
+      "languageName": "english",
+      "languageSiteRoot": true,
+      "page": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:mixinTypes": [],
+          "jcr:createdBy": "admin",
+          "cq:template": "/conf/wknd/settings/wcm/templates/landing-page-template",
+          "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+          "pageTitle": "somepage",
+          "sling:resourceType": "components/page",
+          "cq:lastModifiedBy": "admin"
+          }
+        }
+      },
+    "es": {
+      "jcr:primaryType": "nt:unstructured",
+      "languageName": "espanol",
+      "jcr:language": "es",
+      "languageSiteRoot": true,
+      "page": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:mixinTypes": [],
+          "jcr:createdBy": "admin",
+          "cq:template": "/conf/wknd/settings/wcm/templates/landing-page-template",
+          "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+          "pageTitle": "somepage",
+          "sling:resourceType": "components/page",
+          "cq:lastModifiedBy": "admin"
+          }
+        }
+      }
+    },
+  "ch": {
+    "jcr:primaryType": "sling:Folder",
+    "jcr:createdBy": "admin",
+    "countryName": "Switzerland",
+    "countrySite": true,
+    "jcr:created": "Sun Jun 14 2020 12:16:08 GMT+0200",
+    "de": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:mixinTypes": [],
+        "languageName": "deutsch",
+        "jcr:createdBy": "admin",
+        "countryName": "Schweiz",
+        "cq:template": "/conf/wknd/settings/wcm/templates/landing-page-template",
+        "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+        "languageSiteRoot": true,
+        "pageTitle": "somepage",
+        "sling:resourceType": "components/page",
+        "cq:lastModifiedBy": "admin",
+        "somecomponent": {"jcr:primaryType": "nt:unstructured"}
+        },
+      "page": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:mixinTypes": [],
+          "jcr:createdBy": "admin",
+          "cq:template": "/conf/wknd/settings/wcm/templates/landing-page-template",
+          "jcr:created": "Thu Apr 23 2020 21:30:20 GMT+0200",
+          "pageTitle": "somepage",
+          "sling:resourceType": "components/page",
+          "cq:lastModifiedBy": "admin"
+          }
+        }
+      }
+    }
+  }
