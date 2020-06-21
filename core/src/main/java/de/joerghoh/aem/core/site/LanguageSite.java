@@ -15,7 +15,5 @@ public interface LanguageSite {
     public String getCountryName();
     
     public Optional<CountrySiteImpl> getCountrySite();
-    
-    public Resource getResource();
 
 }

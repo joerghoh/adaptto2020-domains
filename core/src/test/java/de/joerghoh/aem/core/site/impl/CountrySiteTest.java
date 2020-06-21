@@ -36,7 +36,7 @@ public class CountrySiteTest {
         assertNotNull(lsde);
         CountrySite csch = lsde.getCountrySite().get();
         assertNotNull(csch);
-        assertEquals("ch",csch.getResource().getName());
+        assertEquals("ch",((CountrySiteImpl)csch).getResource().getName());
         assertEquals("Switzerland",csch.getCountryName());
         assertEquals("ch",csch.getCountryCode());
         
